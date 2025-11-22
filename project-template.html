@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title - Data Science Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="container navbar">
+        <a href="index.html" class="nav-logo">Portfolio.</a>
+        <ul class="nav-links">
+            <li><a href="index.html#projects">Back to Projects</a></li>
+        </ul>
+    </nav>
+
+    <main class="container section">
+        <!-- Project Header -->
+        <header class="project-header">
+            <h1 class="project-title">Customer Churn Analysis</h1>
+            <p class="project-summary">Predicting customer churn using machine learning models to identify key risk
+                factors and improve retention strategies.</p>
+            <div class="tech-stack">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Looker Studio</span>
+            </div>
+        </header>
+
+        <hr class="divider">
+
+        <!-- Key Insights / Problem / Methodology -->
+        <div class="project-details-grid">
+            <section class="detail-section">
+                <h3>Problem Solved</h3>
+                <p>The company was experiencing a high rate of customer attrition but lacked visibility into the
+                    underlying causes. The goal was to identify at-risk customers and understand the drivers of churn.
+                </p>
+            </section>
+
+            <section class="detail-section">
+                <h3>Methodology & Tools</h3>
+                <ul>
+                    <li>Data cleaning and preprocessing using <strong>Pandas</strong>.</li>
+                    <li>Exploratory Data Analysis (EDA) to uncover patterns.</li>
+                    <li>Feature engineering and model selection using <strong>Scikit-learn</strong>.</li>
+                    <li>Visualization of results in <strong>Looker Studio</strong>.</li>
+                </ul>
+            </section>
+
+            <section class="detail-section">
+                <h3>Key Findings & Insights</h3>
+                <ul class="insights-list">
+                    <li>Customers on monthly contracts are <strong>2.5x more likely</strong> to churn.</li>
+                    <li>Lack of tech support is a significant predictor of dissatisfaction.</li>
+                    <li>Fiber optic internet users have a higher churn rate due to service reliability issues.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Google Colab Embed Section -->
+        <section class="embed-section">
+            <h2>Code & Analysis</h2>
+            <p>Explore the full analysis and code in this Google Colab notebook.</p>
+
+            <!-- PLACEHOLDER: Google Colab Embed -->
+            <!-- Instructions: 
+                 1. Open your Google Colab notebook.
+                 2. Go to File > Save a copy in GitHub (or ensure it's public).
+                 3. You can link directly or use an iframe if supported. 
+                 Below is a styled link card which is often cleaner for notebooks. -->
+            <div class="colab-placeholder">
+                <div class="colab-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg"
+                        alt="Google Colab" width="40">
+                </div>
+                <div class="colab-info">
+                    <h4>Google Colab Notebook</h4>
+                    <p>View the complete Python code and execution steps.</p>
+                </div>
+                <a href="#" target="_blank" class="btn btn-sm">Open Notebook</a>
+            </div>
+        </section>
+
+        <!-- Looker Studio Embed Section -->
+        <section class="embed-section">
+            <h2>Interactive Dashboard</h2>
+            <p>Interact with the data directly through this Looker Studio report.</p>
+
+            <!-- PLACEHOLDER: Looker Studio Embed -->
+            <!-- Instructions:
+                 1. Open your Looker Studio report.
+                 2. Click Share > Embed report.
+                 3. Copy the Embed Code (iframe).
+                 4. Paste the <iframe> tag below inside the .looker-embed-container div. -->
+            <div class="looker-embed-container">
+                <!-- PASTE YOUR IFRAME HERE -->
+                <div class="embed-instruction-overlay">
+                    <p><strong>Looker Studio Embed Placeholder</strong><br>Paste your &lt;iframe&gt; code here.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+        <p>&copy; <span id="current-year"></span> [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
