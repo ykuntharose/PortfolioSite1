@@ -318,5 +318,73 @@ footer {
     text-align: center;
     color: #888;
     pointer-events: none;
+
     /* Allow clicking through if iframe is present but failed to load? No, just for placeholder text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    :root {
+        --spacing-lg: 1.5rem;
+        --spacing-xl: 3.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        /* Stack cards on mobile */
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .nav-links {
+        gap: var(--spacing-md);
+        font-size: 0.9rem;
+    }
+
+    .colab-placeholder {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .colab-info {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .container {
+        padding: 0 2rem;
+        /* Ensure extra padding on small screens */
+    }
+
+    #projects h2 {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
 }
